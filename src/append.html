@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Alim Khan</h1>
+      <p>Full Stack Developer | CSE Student</p>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+      <img src="profile.jpg" alt="Profile Image" />
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I am a passionate Computer Science student interested in backend
+          development, Spring Boot, and full stack projects.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+      <h2>My Projects</h2>
+
+      <div class="project-card">
+        <h3>JWT Authentication System</h3>
+        <p>Secure Spring Boot backend using JWT authentication.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Student Management System</h3>
+        <p>CRUD application using Java, Spring Boot, and MySQL.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>Responsive website built using HTML, CSS, and JavaScript.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="formMessage"></p>
+    </section>
+
+    <footer>
+      <p>© 2026 Alim Khan | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
